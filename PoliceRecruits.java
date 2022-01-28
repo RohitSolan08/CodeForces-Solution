@@ -9,28 +9,28 @@ public class PoliceRecruits
        
        int n = sc.nextInt();
        
-       int untreated =0;
-       int cutoff = 0;
+       int un =0;
+       int cut = 0;
        for(int i =0; i<n;i++)
        {
           int x = sc.nextInt();
           
           if(x>0)
           {
-              cutoff +=x;
+              cut +=x;
           }
           else
           {
-              if(cutoff<1)
+              if(cut<1)
               {
-               untreated++;   
+               un++;   
               }
               else
               {
-                  cutoff--;
+                  cut--;
               }
           }
        }
-       System.out.println(untreated);
+       System.out.println(un);
     }
 }
