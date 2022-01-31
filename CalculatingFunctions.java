@@ -6,15 +6,15 @@ public class CalculatingFunctions
     {
         Scanner sc=new Scanner(System.in);
         
-        long n = sc.nextInt();
+        long c = sc.nextInt();
         
-        if(n%2 == 0)
+        if(c%2 == 0)
         {
-            System.out.println(n/2);
+            System.out.println(c/2);
         }
         else
         {
-            System.out.println(-((n+1)/2));
+            System.out.println(-((c+1)/2));
         }
     }
 }
